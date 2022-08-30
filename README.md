@@ -38,7 +38,7 @@ Data was sourced from US Stock Data Kaggle dataset, which incorporates 7000+ US 
 
 Stocks were then chosen at random and incorporated into a portfolio to be held for a set amount of time, then sold. The number of stocks chosen for a given portfolio was varied from 5 – 25 in increments of 5, and then in increments of 25 up to 150. Bank allocations were split evenly between stocks. Stocks were sold after either 180 days or 365 days. Each portfolio was initialized with random stocks of their given number and allowed to start at random anywhere within the data set. 2,000 portfolios for each condition were initialized as a baseline.
 
-The random trader rules were then upgraded to include stop loss and limit orders at certain percentage thresholds from the purchase price. If the price hit a threshold, the trader would sell and replace the security at random. For these experiments portfolios were allotted 15 stocks and would sell the entire portfolio after 180 days. The baseline random trader was simulated 25,000 times for comparison, and each percentage threshold was simulated 7,500 times.
+The random trader rules were then upgraded to include stop loss and limit orders at certain percentage thresholds from the purchase price. If the price hit a threshold, the trader would sell and replace the security at random. For these experiments portfolios were allotted 15 stocks and would sell the entire portfolio after 180 days. The baseline random trader was simulated 25,000 times for comparison, and each percentage threshold was simulated 7,500 times. See parms.csv for more information on thresholds.
 
 For time considerations, the stop loss and limit order experiments were run on Amazon EC2 instances controlled from Amazon’s Cloud9 IDE. 
 
