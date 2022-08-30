@@ -29,9 +29,8 @@ Python 3.9.7
 * numpy
 * sklearn
 * scipy
-
 * Amazon EC2
-* Amazon Cloud9
+* Amazon Cloud9 - Python 3.10
 
 <!-- Methods-->
 ## Methods
