@@ -37,3 +37,6 @@ Python 3.9.7
 
 <!-- References-->
 ## References
+
+* A Random Walk Down Wall Street
+* https://www.kaggle.com/datasets/footballjoe789/us-stock-dataset
