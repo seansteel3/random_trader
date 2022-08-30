@@ -25,6 +25,10 @@ This project aims to step into the monkey’s shoes, and find out how true Malki
 ### Run With
 
 Python 3.9.7
+* pandas
+* numpy
+* sklearn
+* scipy
 
 * Amazon EC2
 * Amazon Cloud9
