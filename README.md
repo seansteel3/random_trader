@@ -7,8 +7,7 @@ Does Wall Street really do better than a small scale "investor" investing comple
 
 * [Introduction](#introduction)
   * [Run With](#run-with)
-* [Data Sources](#data-sources)
-* [A Journey to MARS](#a-journey-to-mars)
+* [Methods](#methods)
 * [Results](#results)
 * [References](#references)
 
@@ -24,3 +23,17 @@ This project aims to step into the monkey’s shoes, and find out how true Malki
 
 <!-- Run With -->
 ### Run With
+
+Python 3.9.7
+
+* Amazon EC2
+* Amazon Cloud9
+
+<!-- Methods-->
+## Methods
+
+<!-- Results-->
+## Results
+
+<!-- References-->
+## References
