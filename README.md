@@ -46,8 +46,7 @@ For time considerations, the stop loss and limit order experiments were run on A
 <!-- Results-->
 ## Results
 
-![image](https://user-images.githubusercontent.com/67161057/187760253-b44fc388-fb93-49d0-85f8-87a6414bc081.png)
-
+![image](https://user-images.githubusercontent.com/67161057/187761224-afb1226a-70e0-442a-9010-fbc0ba96a01f.png)
 
 <!-- References-->
 ## References
