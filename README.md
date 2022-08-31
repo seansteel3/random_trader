@@ -19,7 +19,7 @@ The stock market is arguably the first big data problem, and has drawn investors
 
 A famous statement from economist Burton Malkiel’s book A Random Walk Down Wall Street states “A blindfolded monkey throwing darts at a newspaper could select a portfolio that would do just as well as one carefully selected by experts.” 
 
-This project aims to step into the monkey’s shoes, and find out how true Malkiel’s statement is in the modern investing environment.
+This project aims to step into the monkey’s shoes, and find out how true Malkiel’s statement is in the modern investing environment. More specifically, this phase of the project investigates if smaller scale “retail investor monkey” could compete with the Wall Street giants.  
 
 <!-- Run With -->
 ### Run With
