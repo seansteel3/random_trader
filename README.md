@@ -102,13 +102,18 @@ Between January 2015 and August 2022, giving a random small scale “monkey reta
 
 While these distributions are increasingly left skewed as time marches on, they make it evident that a random trader, following a small list of rules can indeed be successful in the stock market in the long run. In fact, its unlikely that an investor would lose in the stock market in the long run following these simple rules. 
 
-More impressively, these simple random trading rules beat the S&P 500’s annualized returns (7.62%) during the same time frame.
-
 ![image](https://user-images.githubusercontent.com/67161057/187996724-8658a05e-ebf2-4819-b58f-bf347a37e19b.png)
 
 ![image](https://user-images.githubusercontent.com/67161057/187996660-1eaac803-957b-4697-9f94-2748b9f36896.png)
 
 ![image](https://user-images.githubusercontent.com/67161057/187996612-3803fa9b-d791-4087-b0f9-a19ca0fceaa8.png)
+
+More impressively, these simple random trading rules beat the S&P 500’s annualized returns (7.62%) during the same time frame.
+
+Considering the expected performance of our hypothetical “retail monkey”, the Wall Street hedge funds no longer seem as impressive. Over the last 3 years, largest hedge fund, Bridgewater Associates, has consistently failed to match even the S&P with annualized returns of less than 2.5%. Other hedge funds, such as Berkshire Hathaway manage to narrowly beat the market over the last 3 years with annualized returns of 15%, while others like Citadel Advisors and Point72 don’t even hit 10% annualized returns.
+
+Of course, certain funds such as Renaissance Technologies’s Medallion fund have managed an annualized return of 66% since 1988. However, funds like these are very much the exception rather than the norm. 
+
 
 However, an important caveat should be noted. All the data used to construct these distributions occur between January 1st, 2015, and August 8th, 2022. Therefore, to extrapolate these results to any other time window, one must assume the general stock market and any other relevant economic trends are the same as this window. For example, during this time window the Federal Funds Rate was at an all-time low, a pandemic related economic collapse and subsequent recovery occurred. These likely had a large impact on the expected returns.
 
@@ -119,3 +124,4 @@ Next directions of this project include obtaining a wider date range of data, as
 * A Random Walk Down Wall Street
 * https://www.kaggle.com/datasets/footballjoe789/us-stock-dataset
 * https://www.officialdata.org/us/stocks/s-p-500/2015
+* https://hedgefollow.com/funds/Bridgewater+Associates/Performance-History
