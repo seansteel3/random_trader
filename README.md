@@ -79,10 +79,12 @@ On the other hand, setting no lower threshold for a stop loss order (ie: No sell
 ![image](https://user-images.githubusercontent.com/67161057/187971699-def61abb-8e4a-4794-b0c8-5d8995e827d7.png) ![image](https://user-images.githubusercontent.com/67161057/187971915-bae54d64-41e5-439c-8def-f2f35f43937c.png)
 
 
-![image](https://user-images.githubusercontent.com/67161057/187977775-5cb59c09-f0a3-4bb5-a7f8-b1afba3111a2.png)
+![image](https://user-images.githubusercontent.com/67161057/187977775-5cb59c09-f0a3-4bb5-a7f8-b1afba3111a2.png) ![image](https://user-images.githubusercontent.com/67161057/187978138-c7c12021-a34b-41cf-9006-1cb52777cd9a.png)
 
 
-![image](https://user-images.githubusercontent.com/67161057/187977596-52d25839-ad8a-493f-912b-5ea5521a2f60.png)
+
+![image](https://user-images.githubusercontent.com/67161057/187977596-52d25839-ad8a-493f-912b-5ea5521a2f60.png) ![image](https://user-images.githubusercontent.com/67161057/187978173-209a3534-173c-4087-965a-8890e0ab401d.png)
+
 
 
 
