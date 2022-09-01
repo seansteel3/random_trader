@@ -88,7 +88,7 @@ When holding lower thresholds for stop loss orders constant, in general, the ave
 
 ![image](https://user-images.githubusercontent.com/67161057/187977596-52d25839-ad8a-493f-912b-5ea5521a2f60.png) ![image](https://user-images.githubusercontent.com/67161057/187979964-50fd798d-b54d-48d6-9575-c6078d48be15.png)
 
-The cyan lines across these charts (limit or no stop loss orders) all point to the same conclusion: in general, its best to sell when securities go up and hold when securities go down. 
+The cyan lines across these charts (no limit or no stop loss orders) all point to the same conclusion: in general, its best to sell when securities go up and hold when securities go down. 
 
 Interestingly, across all the conditions tested, selling stocks at any limit or stop loss threshold outperforms a true random trader. This indicates that replacing “losing” securities in hopes of finding a “winner” does tend to find such winners. However, this, coupled with the fact that taking frequent small gains yields better returns, also indicates that there may not be many largescale “winners” in the market. But rather that the market in general tends to incrementally increase in value, even if individual securities may decrease.
 
