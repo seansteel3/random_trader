@@ -63,13 +63,18 @@ Returns after 180 days (5.5% average with 15 securities, annualized by formula t
 
 With base portfolio parameters roughly established, next portion of the project aimed to improve upon a truly random trader by setting commonly used stop loss and limit orders to sell and replace securities. To establish a baseline for comparison, the basic random trader was simulated 20,000 times with the chosen parameters of 15 securities, split evenly across a $5000 allocation, and held for 180 days before being sold. 
 
-Simulating this baseline random trader 20,000 times gave higher density coverage of the randomly chosen start dates, improving the coverage of any temporal variances in the dataset. Additionally, these simulations improved the confidence in the average, median, and chance of a negative return metrics, since all these metrics asymptotically approach their true values.
+Simulating this baseline random trader 20,000 times gave higher density coverage of the randomly chosen start dates, improving the coverage of any temporal variances in the dataset. Additionally, these simulations improved the confidence in the average, median, and chance of a negative return metrics, since all these metrics asymptotically approach their true values. On average, a random trader is expected to make 5.5% returns and has a roughly 40.3% chance of negative returns after 180 days.
 
 
 ![image](https://user-images.githubusercontent.com/67161057/187761224-afb1226a-70e0-442a-9010-fbc0ba96a01f.png)
 
+To assess the impact of setting various stop loss and limit order thresholds, 81 conditions (detailed in the parms.csv file; note thresholds set to 60 equate to no stop loss or limit order) were each simulated 7,500 times. To save time, the 81 conditions and simulations were split between two Amazon EC2 instances running C5.4xLarge machines totaling 32 parallel CPUs. Instances were controlled from a Cloud9 IDE python 3.10 environment. 
+
+Setting no upper threshold for a sell limit order (ie: no selling when the security increases in price), has no effect on average returns until the threshold is set to greater than 25%. Then there is a roughly linear decrease in average return and increase negative return probability. Further investigation is required, but this suggests that securities may tend to rebound from drops as much as 25%. Alternatively, it may suggest also that a few “lucky” securities are able to mitigate taking losses on losers by up to 25%.
+
 ![image](https://user-images.githubusercontent.com/67161057/187971650-d64b6ecd-bb8e-4e2f-b948-c0aa160eb820.png)  ![image](https://user-images.githubusercontent.com/67161057/187971866-7d6aa135-1f4b-4bd8-95f0-db36bc9bef01.png)
 
+On the other hand, setting no lower threshold for a stop loss order (ie: No selling when securities decrease in price) has a sharp decline initially, that nearly level off around a 10% threshold in average returns. However, the probability of negative returns increases nearly linearly as the threshold increases. This possibly suggests that securities tend to frequently increases in price by about 2% and selling and replacing them frequently may both mitigate losses and increase profit potential, though additional. This is further emphasized by the roughly linear increase in negative returns, further suggesting that securities may not increase in price about 4% enough to prevent overall losses.
 
 ![image](https://user-images.githubusercontent.com/67161057/187971699-def61abb-8e4a-4794-b0c8-5d8995e827d7.png) ![image](https://user-images.githubusercontent.com/67161057/187971915-bae54d64-41e5-439c-8def-f2f35f43937c.png)
 
