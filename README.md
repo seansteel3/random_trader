@@ -92,13 +92,26 @@ The cyan lines across these charts (limit or no stop loss orders) all point to t
 
 Interestingly, across all the conditions tested, selling stocks at any limit or stop loss threshold outperforms a true random trader. This indicates that replacing “losing” securities in hopes of finding a “winner” does tend to find such winners. However, this, coupled with the fact that taking frequent small gains yields better returns, also indicates that there may not be many largescale “winners” in the market. But rather that the market in general tends to incrementally increase in value, even if individual securities may decrease.
 
+However, a smaller scale “monkey retail investor” may not be able to closely monitor and sell securities, which frequently increase by 0.02-0.04% in a day or less. In fact, many trading platforms actively discourage or restrict selling securities within one day.
+
+To give this hypothetical “monkey retail investor” some “breathing room,” threshold conditions were set to be no lower than 8%. With this breathing room, the highest average returns and lowest negative return chance is unsurprisingly set at an 8% upper threshold for limit orders, and no stop loss orders (average return of 9.7% and 26.4% negative chance of return).
+
+Sampling 10,000 times from these condition’s return and negative chance distributions, 1-, 3-, and 5-year returns were estimated. 
+
+Between January 2015 and August 2022, giving a random small scale “monkey retail investor” $5000 split between 15 securities and selling them all after 6 months, or if they rise above 8%, after 1 year, the expected return is equal to about 21% and negative return chance equal to about 20%. While after 5 years, the expected return exceeded 160% with only a 4% chance of a negative return. 
+
+While these distributions are increasingly left skewed as time marches on, they make it evident that a random trader, following a small list of rules can indeed be successful in the stock market in the long run. In fact, its unlikely that an investor would lose in the stock market in the long run following these simple rules. 
+
+
 ![image](https://user-images.githubusercontent.com/67161057/187992452-842bcef6-1e81-4b9d-894a-ebf27e29310b.png)
 
 ![image](https://user-images.githubusercontent.com/67161057/187992491-1792a003-745a-4334-942d-a3e906b92dbb.png)
 
 ![image](https://user-images.githubusercontent.com/67161057/187992545-7518c10f-b287-4f47-b3d7-c2ad847b09d2.png)
 
+However, an important caveat should be noted. All the data used to construct these distributions occur between January 1st, 2015, and August 8th, 2022. Therefore, to extrapolate these results to any other time window, one must assume the general stock market and any other relevant economic trends are the same as this window. For example, during this time window the Federal Funds Rate was at an all-time low, a pandemic related economic collapse and subsequent recovery occurred. These likely had a large impact on the expected returns.
 
+Next directions of this project include obtaining a wider date range of data, as well as incorporating a series of temporal cross validation tests to assess the issues mentioned in the previous paragraph. Additionally, this project mainly looked at a small scale “retail investor monkey,” the next steps include looking into how an “institutional investor monkey” may perform.
 <!-- References-->
 ## References
 
