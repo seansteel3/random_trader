@@ -102,11 +102,11 @@ Between January 2015 and August 2022, giving a random small scale “monkey reta
 
 While these distributions are increasingly left skewed as time marches on, they make it evident that a random trader, following a small list of rules can indeed be successful in the stock market in the long run. In fact, its unlikely that an investor would lose in the stock market in the long run following these simple rules. 
 
-![image](https://user-images.githubusercontent.com/67161057/187996724-8658a05e-ebf2-4819-b58f-bf347a37e19b.png)
+![image](https://user-images.githubusercontent.com/67161057/188001552-4c905dde-a7e6-4b66-a278-22637c7082ad.png)
 
-![image](https://user-images.githubusercontent.com/67161057/187996660-1eaac803-957b-4697-9f94-2748b9f36896.png)
+![image](https://user-images.githubusercontent.com/67161057/188001597-5c51bc2f-8532-4455-9de7-0028fb6eb1fa.png)
 
-![image](https://user-images.githubusercontent.com/67161057/187996612-3803fa9b-d791-4087-b0f9-a19ca0fceaa8.png)
+![image](https://user-images.githubusercontent.com/67161057/188001648-ae006a77-f9e4-4e9d-a46a-e78b12086ec8.png)
 
 More impressively, these simple random trading rules beat the S&P 500’s annualized returns (7.62%) during the same time frame.
 
