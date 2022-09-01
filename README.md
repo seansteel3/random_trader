@@ -110,10 +110,11 @@ While these distributions are increasingly left skewed as time marches on, they 
 
 More impressively, these simple random trading rules beat the S&P 500’s annualized returns (7.62%) during the same time frame.
 
-Considering the expected performance of our hypothetical “retail monkey”, the Wall Street hedge funds no longer seem as impressive. Over the last 3 years, largest hedge fund, Bridgewater Associates, has consistently failed to match even the S&P with annualized returns of less than 2.5%. Other hedge funds, such as Berkshire Hathaway manage to narrowly beat the market over the last 3 years with annualized returns of 15%, while others like Citadel Advisors and Point72 don’t even hit 10% annualized returns.
+Considering the expected performance of our hypothetical “monkey retail investor”, the Wall Street hedge funds no longer seem as impressive. Over the last 3 years, largest hedge fund, Bridgewater Associates, has consistently failed to match even the S&P with annualized returns of less than 2.5%. Other hedge funds, such as Berkshire Hathaway manage to narrowly beat the market over the last 3 years with annualized returns of 15%, while others like Citadel Advisors and Point72 don’t even hit 10% annualized returns.
 
 Of course, certain funds such as Renaissance Technologies’s Medallion fund have managed an annualized return of 66% since 1988. However, funds like these are very much the exception rather than the norm. 
 
+While the few funds like the Medallion Fund certainly challenge the Efficient Market Hypothesis, it is not clear that Wall Street truly does better than our “monkey retail investor.”
 
 However, an important caveat should be noted. All the data used to construct these distributions occur between January 1st, 2015, and August 8th, 2022. Therefore, to extrapolate these results to any other time window, one must assume the general stock market and any other relevant economic trends are the same as this window. For example, during this time window the Federal Funds Rate was at an all-time low, a pandemic related economic collapse and subsequent recovery occurred. These likely had a large impact on the expected returns.
 
