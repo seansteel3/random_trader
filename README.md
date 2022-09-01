@@ -45,17 +45,23 @@ For time considerations, the stop loss and limit order experiments were run on A
 
 <!-- Results-->
 ## Results
+Given a bank allocation of $5000 dollars split evenly between securities, a trader buying stocks at random would maximize returns by holding between 10-15 securities. For portfolios larger than 20 securities, average returns drop steadily and portfolios larger than 50 have negative expected returns. 
 
+A possible explanation for this phenomenon may be because smaller portfolios can ride on one or two “lucky” securities that do extremely well, despite the fact the majority tend to yield no returns or poor returns. However, larger portfolios spread the funds too thin, diluting the effect of “lucky” securities.
 
 ![image](https://user-images.githubusercontent.com/67161057/187779367-ec9ac866-cde5-4a5e-966f-b9c8d7a560b2.png)  ![image](https://user-images.githubusercontent.com/67161057/187806308-dd21ba7a-c18a-4049-a8c3-235d13923d6c.png)
 
+The chance of a random portfolio having negative returns is directly tied to the average return. Meaning the general distribution and skew of the distribution remains the same regardless of the specific portfolio construction parameters. This fact is observed throughout all simulations during this project. 
 
 ![image](https://user-images.githubusercontent.com/67161057/187779531-a3fb9950-2960-4624-b499-eed319e45cc3.png)  ![image](https://user-images.githubusercontent.com/67161057/187806313-1772591d-626d-4b8a-9555-e48aeffd6b2a.png)
+
+Returns after 180 days (5.5% average with 15 securities, annualized 11.3%) nearly match returns after 365 days (13.8% average with 15 securities). Further the rough distribution at 365 days is nearly recovered when randomly sampling from the 180 days distribution twice 5000 times.
+
+![image](https://user-images.githubusercontent.com/67161057/187808829-0a8fec28-7816-4853-be60-2d890b3e5058.png)
 
 
 ![image](https://user-images.githubusercontent.com/67161057/187761224-afb1226a-70e0-442a-9010-fbc0ba96a01f.png)
 
-![image](https://user-images.githubusercontent.com/67161057/187808829-0a8fec28-7816-4853-be60-2d890b3e5058.png)
 
 <!-- References-->
 ## References
