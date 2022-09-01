@@ -68,6 +68,13 @@ Simulating this baseline random trader 20,000 times gave higher density coverage
 
 ![image](https://user-images.githubusercontent.com/67161057/187761224-afb1226a-70e0-442a-9010-fbc0ba96a01f.png)
 
+![image](https://user-images.githubusercontent.com/67161057/187971650-d64b6ecd-bb8e-4e2f-b948-c0aa160eb820.png)  ![image](https://user-images.githubusercontent.com/67161057/187971866-7d6aa135-1f4b-4bd8-95f0-db36bc9bef01.png)
+
+
+![image](https://user-images.githubusercontent.com/67161057/187971699-def61abb-8e4a-4794-b0c8-5d8995e827d7.png) ![image](https://user-images.githubusercontent.com/67161057/187971915-bae54d64-41e5-439c-8def-f2f35f43937c.png)
+
+
+
 
 <!-- References-->
 ## References
