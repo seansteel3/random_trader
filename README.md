@@ -94,7 +94,7 @@ Interestingly, across all the conditions tested, selling stocks at any limit or 
 
 To assess long term expected returns, the best limit and stop loss thresholds were randomly sampled 12,500 times over multiple periods. However, our hypothetical small scale “monkey retail investor” may not be able to closely monitor and sell securities, which frequently fluctuate by 2-4% within a day or less. In fact, many trading platforms actively discourage or even restrict selling securities within one day.
 
-To give this hypothetical “monkey retail investor” some “breathing room,” threshold conditions were set to be no lower than 8%. With this breathing room, the highest average returns and lowest negative return chance is unsurprisingly set at an 8% upper threshold for limit orders, and no stop loss orders (average return of 9.7% and 26.4% negative chance of return).
+To give this hypothetical “monkey retail investor” some “breathing room,” threshold conditions were set to be no lower than 8%. With this breathing room, the highest average returns and lowest negative return chance is unsurprisingly set at an 8% upper threshold for limit orders, and no stop loss orders. Following these rules, one can expect returns of 9.7% and 26.4% negative chance of return in any single 180 day trading period.
 
 Sampling 12,500 times from these condition’s return and negative chance distributions, 1-, 3-, and 5-year returns were estimated. 
 
