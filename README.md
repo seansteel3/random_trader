@@ -78,12 +78,20 @@ On the other hand, setting no lower threshold for a stop loss order (ie: No sell
 
 ![image](https://user-images.githubusercontent.com/67161057/187971699-def61abb-8e4a-4794-b0c8-5d8995e827d7.png) ![image](https://user-images.githubusercontent.com/67161057/187971915-bae54d64-41e5-439c-8def-f2f35f43937c.png)
 
+When holding upper thresholds for limit orders constant, in general, the average returns tend to increase logarithmically, while the chance of negative returns vary by upper threshold group but are roughly constant. These observations imply that taking losses on securities may not be ideal, especially since the maximum expected returns tend to be when the trader is instructed to simply not sell when securities drop (1.0 on the charts represent to no selling). 
+
+Additionally, the trend observed above holds true across all lower threshold conditions. The cyan 1.0 line is the same “no limit order” line from the charts above, and at nearly every point it under performs other stop loss threshold conditions. This observation further reinforces the idea that taking profits when they arise will yield better returns, while taking losses tends to be only mildly beneficial or not beneficial.
 
 ![image](https://user-images.githubusercontent.com/67161057/187977775-5cb59c09-f0a3-4bb5-a7f8-b1afba3111a2.png) ![image](https://user-images.githubusercontent.com/67161057/187978138-c7c12021-a34b-41cf-9006-1cb52777cd9a.png)
 
-
+When holding lower thresholds for stop loss orders constant, in general, the average returns and chance of ten to decrease logarithmically and increase linearly respectively. These observations reinforce the idea of taking frequent gains when they arise is more beneficial than waiting for the security to increase in value. This further implies that securities tend to either fluctuate or increase in value in smaller increments, rather than make larger positive price changes. 
 
 ![image](https://user-images.githubusercontent.com/67161057/187977596-52d25839-ad8a-493f-912b-5ea5521a2f60.png) ![image](https://user-images.githubusercontent.com/67161057/187979964-50fd798d-b54d-48d6-9575-c6078d48be15.png)
+
+The cyan lines across these charts (limit or no stop loss orders) all point to the same conclusion: in general, its best to sell when securities go up and hold when securities go down. 
+
+Interestingly, across all the conditions tested, selling stocks at any limit or stop loss threshold outperforms a true random trader. This indicates that replacing “losing” securities in hopes of finding a “winner” does tend to find such winners. However, this, coupled with the fact that taking frequent small gains yields better returns, also indicates that there may not be many largescale “winners” in the market. But rather that the market in general tends to incrementally increase in value, even if individual securities may decrease.
+
 
 
 
