@@ -78,7 +78,7 @@ On the other hand, setting no lower threshold for a stop loss order (ie: No sell
 
 ![image](https://user-images.githubusercontent.com/67161057/187971699-def61abb-8e4a-4794-b0c8-5d8995e827d7.png) ![image](https://user-images.githubusercontent.com/67161057/187971915-bae54d64-41e5-439c-8def-f2f35f43937c.png)
 
-When holding upper thresholds for limit orders constant, in general, the average returns tend to increase logarithmically, while the chance of negative returns vary by upper threshold group but are roughly constant. These observations imply that taking losses on securities may not be ideal, especially since the maximum expected returns tend to be when the trader is instructed to simply not sell when securities drop (1.0 on the charts represent to no selling). 
+When holding upper thresholds for limit orders constant, in general, the average returns tend to increase logarithmically, while the chance of negative returns are roughly constant. These observations imply that taking losses on securities may not be ideal, especially since the maximum expected returns tend to be higher when the trader is instructed to simply not sell when securities drop (1.0 on the AXIS of the charts represent no selling). 
 
 Additionally, the trend observed above holds true across all lower threshold conditions. The cyan 1.0 line is the same “no limit order” line from the charts above, and at nearly every point it under performs other stop loss threshold conditions. This observation further reinforces the idea that taking profits when they arise will yield better returns, while taking losses tends to be only mildly beneficial or not beneficial.
 
@@ -93,6 +93,11 @@ The cyan lines across these charts (limit or no stop loss orders) all point to t
 Interestingly, across all the conditions tested, selling stocks at any limit or stop loss threshold outperforms a true random trader. This indicates that replacing “losing” securities in hopes of finding a “winner” does tend to find such winners. However, this, coupled with the fact that taking frequent small gains yields better returns, also indicates that there may not be many largescale “winners” in the market. But rather that the market in general tends to incrementally increase in value, even if individual securities may decrease.
 
 
+![image](https://user-images.githubusercontent.com/67161057/187990603-211ee312-92e9-4355-98ff-460d13c4d80a.png)
+
+![image](https://user-images.githubusercontent.com/67161057/187990547-7876722d-b984-4909-9093-2329f03791dc.png)
+
+![image](https://user-images.githubusercontent.com/67161057/187990506-3e8274b9-67bd-468f-a75b-50ca379bc0f1.png)
 
 
 <!-- References-->
