@@ -63,7 +63,7 @@ Returns after 180 days (5.5% average with 15 securities, annualized by formula t
 
 With base portfolio parameters roughly established, next portion of the project aimed to improve upon a truly random trader by setting commonly used stop loss and limit orders to sell and replace securities. To establish a baseline for comparison, the basic random trader was simulated 20,000 times with the chosen parameters of 15 securities, split evenly across a $5000 allocation, and held for 180 days before being sold. 
 
-Simulating this baseline random trader 20,000 times gave higher density coverage of the randomly chosen start dates, improving the coverage of any temporal variances in the dataset. Additionally, these simulations improved the confidence in the average, median, and chance of a negative return metrics, since all these metrics asymptotically approach their true values. On average, a random trader is expected to make 5.5% returns and has a roughly 40.3% chance of negative returns after 180 days.
+Simulating this baseline random trader 20,000 times gave higher density coverage of the randomly chosen start dates, improving the coverage of any temporal variances in the dataset. Additionally, these simulations improved the confidence in the average, median, and chance of a negative return metrics, since all these metrics asymptotically approach their true values. On average, a random trader is expected to make 5.5% returns and has a roughly 40.4% chance of negative returns after 180 days.
 
 
 ![image](https://user-images.githubusercontent.com/67161057/187761224-afb1226a-70e0-442a-9010-fbc0ba96a01f.png)
