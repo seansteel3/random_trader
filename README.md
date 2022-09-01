@@ -55,7 +55,7 @@ The chance of a random portfolio having negative returns is directly tied to the
 
 ![image](https://user-images.githubusercontent.com/67161057/187779531-a3fb9950-2960-4624-b499-eed319e45cc3.png)  ![image](https://user-images.githubusercontent.com/67161057/187806313-1772591d-626d-4b8a-9555-e48aeffd6b2a.png)
 
-Returns after 180 days (5.5% average with 15 securities, annualized by fromula to 11.3%, annualized by resampling 5000x to 10.7%) nearly match returns after 365 days (12.8% average with 15 securities). Further the rough distribution at 365 days is nearly, but imperfectly, recovered when randomly sampling from the 180 days distribution twice 5000 times. This imperfect recovery is not surprising since selling all owned stocks and replacing them 2x a year will undoubtably be different than holding them for a full year.
+Returns after 180 days (5.5% average with 15 securities, annualized by formula to 11.3%, annualized by resampling 5000x to 10.7%) nearly match returns after 365 days (12.8% average with 15 securities). Further the rough distribution at 365 days is nearly, but imperfectly, recovered when randomly sampling from the 180 days distribution twice 5000 times. This imperfect recovery is not surprising since selling all owned stocks and replacing them 2x a year will undoubtably be different than holding them for a full year.
 
 ![image](https://user-images.githubusercontent.com/67161057/187808829-0a8fec28-7816-4853-be60-2d890b3e5058.png)     ![image](https://user-images.githubusercontent.com/67161057/187809467-43cc59bc-f9b8-4bbc-8c22-a641a876ab5d.png)
 
