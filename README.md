@@ -92,12 +92,11 @@ The cyan lines across these charts (limit or no stop loss orders) all point to t
 
 Interestingly, across all the conditions tested, selling stocks at any limit or stop loss threshold outperforms a true random trader. This indicates that replacing “losing” securities in hopes of finding a “winner” does tend to find such winners. However, this, coupled with the fact that taking frequent small gains yields better returns, also indicates that there may not be many largescale “winners” in the market. But rather that the market in general tends to incrementally increase in value, even if individual securities may decrease.
 
+![image](https://user-images.githubusercontent.com/67161057/187992452-842bcef6-1e81-4b9d-894a-ebf27e29310b.png)
 
-![image](https://user-images.githubusercontent.com/67161057/187990603-211ee312-92e9-4355-98ff-460d13c4d80a.png)
+![image](https://user-images.githubusercontent.com/67161057/187992491-1792a003-745a-4334-942d-a3e906b92dbb.png)
 
-![image](https://user-images.githubusercontent.com/67161057/187990547-7876722d-b984-4909-9093-2329f03791dc.png)
-
-![image](https://user-images.githubusercontent.com/67161057/187990506-3e8274b9-67bd-468f-a75b-50ca379bc0f1.png)
+![image](https://user-images.githubusercontent.com/67161057/187992545-7518c10f-b287-4f47-b3d7-c2ad847b09d2.png)
 
 
 <!-- References-->
