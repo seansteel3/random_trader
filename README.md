@@ -84,7 +84,7 @@ Additionally, the trend observed above holds true across all lower threshold con
 
 ![image](https://user-images.githubusercontent.com/67161057/187977775-5cb59c09-f0a3-4bb5-a7f8-b1afba3111a2.png) ![image](https://user-images.githubusercontent.com/67161057/187978138-c7c12021-a34b-41cf-9006-1cb52777cd9a.png)
 
-When holding lower thresholds for stop loss orders constant, in general, the average returns and chance of ten to decrease logarithmically and increase linearly respectively. These observations reinforce the idea of taking frequent gains when they arise is more beneficial than waiting for the security to increase in value. This further implies that securities tend to either fluctuate or increase in value in smaller increments, rather than make larger positive price changes. 
+When holding lower thresholds for stop loss orders constant, in general, the average returns and chance of negative returns tend to decrease logarithmically and increase linearly respectively. These observations reinforce the idea that taking frequent gains when they arise is more beneficial than waiting for the security to increase in value. This may also imply that securities tend to either fluctuate or increase in value in smaller increments, rather than make larger positive price changes. 
 
 ![image](https://user-images.githubusercontent.com/67161057/187977596-52d25839-ad8a-493f-912b-5ea5521a2f60.png) ![image](https://user-images.githubusercontent.com/67161057/187979964-50fd798d-b54d-48d6-9575-c6078d48be15.png)
 
