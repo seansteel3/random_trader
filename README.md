@@ -45,7 +45,9 @@ For time considerations, the stop loss and limit order experiments were run on A
 
 <!-- Results-->
 ## Results
-Given a bank allocation of $5000 dollars split evenly between securities, a trader buying stocks at random would maximize returns by holding between 10-15 securities. For portfolios larger than 20 securities, average returns drop steadily and portfolios larger than 50 have negative expected returns. 
+Given a bank allocation of $5000 dollars split evenly between securities, a trader buying stocks at random would maximize returns by holding between 10-15 securities. For portfolios larger than 20 securities, average returns drop steadily and portfolios larger than 50 have negative expected returns.  
+
+*It should be noted that all metrics were calculated after removing returns greater than 100%, since returns of this magnitude greatly bias the average metrics and only make up less than 0.5% of simulations. 
 
 A possible explanation for this phenomenon may be because smaller portfolios can ride on one or two “lucky” securities that do extremely well, despite the fact the majority tend to yield no returns or poor returns. However, larger portfolios spread the funds too thin, diluting the effect of “lucky” securities.
 
