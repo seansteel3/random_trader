@@ -101,7 +101,7 @@ To give this hypothetical “monkey retail investor” some “breathing room,�
 
 The 1-, 3-, and 5-year returns and respective chance of negative returns were estimated from 12,500 simulations, sampling the single 180 day trading period 2, 6 and 10 times respectively.
 
-Between January 2015 and August 2022, giving a random small scale “monkey retail investor” $5000 split between 15 securities and selling them all after 6 months, or if they rise above 8%, after 1 year, the expected return is equal to about 21% and negative return chance equal to about 20%. While after 5 years, the expected return exceeded 160% with only a 4% chance of a negative return. 
+Between January 2015 and August 2022, giving a random small scale “monkey retail investor” $5000 split between 15 securities and selling them all after 6 months, or if they rise above 8%, after 1 year, the expected return is equal to about 21% and negative return chance equal to about 20%. While after 5 years, the expected return exceeded 160% with only a 4% chance of a negative return. Nearly double the returns of the baseline random trader.
 
 While these distributions are increasingly left skewed as time marches on, they make it evident that a random trader, following a small list of rules can indeed be successful in the stock market in the long run. In fact, its unlikely that an investor would lose in the stock market in the long run following these simple rules. 
 
