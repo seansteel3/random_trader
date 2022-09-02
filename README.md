@@ -67,11 +67,9 @@ Simulating this baseline random trader 20,000 times gave higher density coverage
 
 ![image](https://user-images.githubusercontent.com/67161057/187761224-afb1226a-70e0-442a-9010-fbc0ba96a01f.png)
 
-![image](https://user-images.githubusercontent.com/67161057/188166299-e5626e2c-4f11-4ebc-901b-78d2803779fa.png)
+![image](https://user-images.githubusercontent.com/67161057/188166957-e97d8be4-a64d-4512-8f84-d9a5f8b0a289.png)
 
-![image](https://user-images.githubusercontent.com/67161057/188166343-20f5c38c-2d71-4e10-b8fa-d72c448e8bf8.png)
-
-![image](https://user-images.githubusercontent.com/67161057/188166545-8e005afe-3ae1-4d31-b0b0-dc83d2cc71a8.png)
+![image](https://user-images.githubusercontent.com/67161057/188166995-6787be40-82fe-4a62-aeec-34c281e683e1.png)
 
 To assess the impact of setting various stop loss and limit order thresholds, 81 conditions (detailed in the parms.csv file; note thresholds set to 60 equate to no stop loss or limit order) were each simulated 7,500 times. To save time, the 81 conditions and simulations were split between two Amazon EC2 instances running C5.4xLarge machines totaling 32 parallel CPUs. Instances were controlled from a Cloud9 IDE python 3.10 environment. 
 
