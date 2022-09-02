@@ -119,6 +119,11 @@ Of course, certain funds such as Renaissance Technologies’s Medallion fund hav
 
 While the few funds like the Medallion Fund certainly challenge the Efficient Market Hypothesis, it is not clear that Wall Street truly does better than our “monkey retail investor.” What’s even more damming to the Wall Street hedge funds is the fact that if we return to our baseline random “monkey retail investor” with no stop loss and limit orders, but allow it to trade any securities over $2, the average returns after 1 year increase to 17% with only a 12% chance of negative returns. After five years the average returns increase from about 84% to over 120% with less than 0.5% chance of negative returns. Meanwhile, over the same time period hundreds of hedge funds have negative 5 year returns.
 
+![image](https://user-images.githubusercontent.com/67161057/188175613-884654ed-e0ea-4399-a926-fc71eac9b83a.png)
+
+![image](https://user-images.githubusercontent.com/67161057/188175640-f9e11953-1bc6-4662-9c87-0ac49fafb1ec.png)
+
+
 However, an important caveat should be noted. All the data used to construct these distributions occur between January 1st, 2015, and August 8th, 2022. Therefore, to extrapolate these results to any other time window, one must assume the general stock market and any other relevant economic trends are the same as this window. For example, during this time window the Federal Funds Rate was at an all-time low, a pandemic related economic collapse and subsequent recovery occurred. These likely had a large impact on the expected returns.
 
 Next directions of this project include obtaining a wider date range of data, as well as incorporating a series of temporal cross validation tests to assess the issues mentioned in the previous paragraph. Additionally, this project mainly looked at a small scale “retail investor monkey,” the next steps include looking into how an “institutional investor monkey” may perform.
