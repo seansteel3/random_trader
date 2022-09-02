@@ -126,7 +126,8 @@ While the few funds like the Medallion Fund certainly challenge the Efficient Ma
 
 However, an important caveat should be noted. All the data used to construct these distributions occur between January 1st, 2015, and August 8th, 2022. Therefore, to extrapolate these results to any other time window, one must assume the general stock market and any other relevant economic trends are the same as this window. For example, during this time window the Federal Funds Rate was at an all-time low, a pandemic related economic collapse and subsequent recovery occurred. These likely had a large impact on the expected returns.
 
-Next directions of this project include obtaining a wider date range of data, as well as incorporating a series of temporal cross validation tests to assess the issues mentioned in the previous paragraph. Additionally, this project mainly looked at a small scale “retail investor monkey,” the next steps include looking into how an “institutional investor monkey” may perform.
+Next directions of this project include obtaining a wider date range of data, as well as incorporating a series of temporal cross validation tests to assess the issues mentioned in the previous paragraph. Additionally, this project mainly looked at a small scale “retail investor monkey,” the next steps include looking into how an “institutional investor monkey” may perform, as well as a more detailed analysis of hedge fund performance.
+
 <!-- References-->
 ## References
 
