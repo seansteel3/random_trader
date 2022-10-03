@@ -15,7 +15,7 @@ Does Wall Street really do better than a small scale "investor" investing comple
 <!-- Introduction -->
 ## Introduction
 
-The stock market is arguably the first big data problem, and has drawn investors, academics, and novices alike for hundreds of years. Today it’s easier than ever before to both analyze the stock market and play your hand in it as an investor. However, despite the sheer number of minds and resources invested into “solving the stock market” its unclear if the efficient market hypothesis can ever truly be beaten in the long run.
+The stock market is arguably the first big data problem, and has drawn investors, academics, and novices alike for hundreds of years. Today it’s easier than ever before to both analyze the stock market and play your hand in it as an investor. However, despite the sheer number of minds and resources invested into “solving the market” its unclear if the efficient market hypothesis can ever truly be beaten in the long run.
 
 A famous statement from economist Burton Malkiel’s book A Random Walk Down Wall Street states “A blindfolded monkey throwing darts at a newspaper could select a portfolio that would do just as well as one carefully selected by experts.” 
 
@@ -34,18 +34,18 @@ Python 3.9.7
 
 <!-- Methods-->
 ## Methods
-Data was sourced from US Stock Data Kaggle dataset, which incorporates 7000+ US stocks, indices, mututal funds, bond funds, and ETFs between 2015 and the current date. These stocks were subset between Jan 1st, 2015, and Aug 8th, 2022. Then stocks less than $2 and greater than $50 at the start of the dataset were excluded. Exclusion cut offs were set since stocks under $2 often have restricted trading, and stocks over $50 would potentially be difficult for a small-scale retail investor to purchase with a small bank allocation.
+Data was sourced from US Stock Data Kaggle dataset, which incorporates 7000+ US stocks, indices, mututal funds, bond funds, and ETFs between 2015 and the current date. These securities were subset between Jan 1st, 2015, and Aug 8th, 2022. Then securities less than $2 and greater than $50 at the start of the dataset were excluded. Exclusion cut offs were set since securities under $2 often have restricted trading, and securities over $50 would potentially be difficult for a small-scale retail investor to purchase with a small bank allocation.
 
-Stocks were then chosen at random and incorporated into a portfolio to be held for a set amount of time, then sold. The number of stocks chosen for a given portfolio was varied from 5 – 25 in increments of 5, and then in increments of 25 up to 150. Bank allocations were split evenly between stocks. Stocks were sold after either 180 days or 365 days. Each portfolio was initialized with random stocks of their given number and allowed to start at random anywhere within the data set. 2,000 portfolios for each condition above were initialized as a baseline.
+Securities were randomly incorporated into a portfolio to be held for a set amount of time, then sold. The number of securities chosen for a given portfolio was varied from 5 – 25 in increments of 5, and then in increments of 25 up to 150. Porfolio bank allocations were split evenly. Securities were sold after either 180 days or 365 days. Each portfolio was initialized with random securities of their given number and allowed to start at random anywhere within the data set. 2,000 portfolios for each condition above were initialized as a baseline.
 
-The random trader rules were then upgraded to include stop loss and limit orders at certain percentage thresholds from the purchase price. If the price hit a threshold, the trader would sell and replace the security at random. For these experiments portfolios were allotted 15 stocks and would sell the entire portfolio after 180 days. The baseline random trader was simulated 20,000 times for comparison, and each percentage threshold was simulated 7,500 times. See parms.csv for more information on thresholds.
+The random trader rules were then upgraded to include stop loss and limit orders at certain percentage thresholds from the purchase price. If the price hit a threshold, the trader would sell and replace the security at random. For these experiments portfolios were allotted 15 securities and would sell the entire portfolio after 180 days. The baseline random trader was simulated 20,000 times for comparison, and each percentage threshold was simulated 7,500 times. See parms.csv for more information on thresholds.
 
 For time considerations, the stop loss and limit order experiments were run on Amazon EC2 instances controlled from Amazon’s Cloud9 IDE running in a Python 3.10 environment.
 
 
 <!-- Results-->
 ## Results
-Given a bank allocation of $5000 dollars split evenly between securities, a trader buying stocks at random would maximize returns by holding between 10-15 securities. For portfolios larger than 20 securities, average returns drop steadily and portfolios larger than 50 have negative expected returns.  
+Given a bank allocation of $5000 dollars split evenly between securities, a trader buying securities at random would maximize returns by holding between 10-15 securities. For portfolios larger than 20 securities, average returns drop steadily and portfolios larger than 50 have negative expected returns.  
 
 A possible explanation for this phenomenon may be because smaller portfolios can ride on one or two “lucky” securities that do extremely well, despite the fact the majority tend to yield no returns or poor returns. However, larger portfolios spread the funds too thin, diluting the effect of “lucky” securities.
 
@@ -93,7 +93,7 @@ When holding lower thresholds for stop loss orders constant, in general, the ave
 
 The cyan lines across these charts (no limit or no stop loss orders) all point to the same conclusion: in general, its best to sell when securities go up and hold when securities go down. 
 
-Interestingly, across all the conditions tested, selling stocks at any limit or stop loss threshold outperforms a true random trader. This indicates that replacing “losing” securities in hopes of finding a “winner” does tend to find such winners. However, this, coupled with the fact that taking frequent small gains yields better returns, also indicates that there may not be many largescale “winners” in the market. But rather that the market in general tends to incrementally increase in value, even if individual securities may decrease.
+Interestingly, across all the conditions tested, selling securities at any limit or stop loss threshold outperforms a true random trader. This indicates that replacing “losing” securities in hopes of finding a “winner” does tend to find such winners. However, this, coupled with the fact that taking frequent small gains yields better returns, also indicates that there may not be many largescale “winners” in the market. But rather that the market in general tends to incrementally increase in value, even if individual securities may decrease.
 
 To assess long term expected returns, the best limit and stop loss thresholds were randomly sampled 12,500 times over multiple periods. However, our hypothetical small scale “monkey retail investor” may not be able to closely monitor and sell securities, which frequently fluctuate by 2-4% within a day or less. In fact, many trading platforms actively discourage or even restrict selling securities within one day.
 
