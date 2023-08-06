@@ -53,7 +53,7 @@ A possible explanation for this phenomenon may be because smaller portfolios can
 
 ![image](https://user-images.githubusercontent.com/67161057/187779367-ec9ac866-cde5-4a5e-966f-b9c8d7a560b2.png)  ![image](https://user-images.githubusercontent.com/67161057/187806308-dd21ba7a-c18a-4049-a8c3-235d13923d6c.png)
 
-The chance of a random portfolio having negative returns is inversely proportional to the average return. Meaning the general distribution and skew of the distribution remains the same regardless of the specific portfolio construction parameters. This fact is observed throughout all simulations during this project. 
+The chance of a random portfolio having negative returns is inversely proportional to the size of the portfolio. Meaning the general distribution and skew of the distribution remains the same regardless of the specific portfolio construction parameters. This fact is observed throughout all simulations during this project. 
 
 ![image](https://user-images.githubusercontent.com/67161057/187779531-a3fb9950-2960-4624-b499-eed319e45cc3.png)  ![image](https://user-images.githubusercontent.com/67161057/187806313-1772591d-626d-4b8a-9555-e48aeffd6b2a.png)
 
